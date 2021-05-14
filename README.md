@@ -30,7 +30,7 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 | Credential Name          | Where is the secret used?                                                        | Rotation Frequency (in days) | How to get a new secret?
 | ------------------------ | -------------------------------------------------------------------------------- | ---------------------------- | ------
-| cloudant-iam-apikey      | otc-pagerduty-broker, otc-slack-broker, <br> otc-toolint-broker, otc-saucelabs-broker | 90                           | Request to Mike Melick/Joel Cayne Core team
+| cloudant-iam-apikey      | otc-pagerduty-broker, otc-slack-broker, otc-toolint-broker, otc-saucelabs-broker | 90                           | Request to Mike Melick/Joel Cayne Core team
 | pagerduty-apikey         | otc-pagerduty-broker                                                             | 365                          | 
 | pagerduty-apikey-2       | otc-pagerduty-broker                                                             | 365                          | 
 | slack-bot-token          | otc-slack-broker                                                                 | 365                          | 
