@@ -28,11 +28,20 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-| Format   | Tag example |
-| -------- | ----------- |
-| Headings | =heading1= <br> ==heading2==<br>===heading3=== |
-| New paragraph | A blank line starts a new paragraph |
-| Source code block |  // all on one line<br> {{{ if (foo) bar else   baz }}} |
+| Credential Name          | Where is the secret used?                                                        | Rotation Frequency (in days) | How to get a new secret?
+| ------------------------ | -------------------------------------------------------------------------------- | ---------------------------- | ------
+| cloudant-iam-apikey      | otc-pagerduty-broker, otc-slack-broker, <br> otc-toolint-broker, otc-saucelabs-broker | 90                           | Request to Mike Melick/Joel Cayne Core team
+| pagerduty-apikey         | otc-pagerduty-broker                                                             | 365                          | 
+| pagerduty-apikey-2       | otc-pagerduty-broker                                                             | 365                          | 
+| slack-bot-token          | otc-slack-broker                                                                 | 365                          | 
+| idsorg-session-secret    | otc-cf-broker                                                                    | 365                          | 
+| idsorg-test-tiam-secret  | otc-pagerduty-broker, otc-slack-broker                                           | 365                          | 
+| cti-otc-api-secret       | otc-cti-broker                                                                   | 365                          | 
+| encryption-key           | otc-pagerduty-broker, otc-toolint-broker, otc-cti-broker                         | 90                           | 
+| pagerduty-otc-api-secret | otc-pagerduty-broker                                                             | 365                          | 
+| saucelabs-otc-api-secret | otc-saucelabs-broker                                                             | 365                          | 
+| slack-otc-api-secret     | otc-slack-broker                                                                 | 365                          | 
+| toolint-otc-api-secret   | otc-toolint-broker                                                               | 365                          | 
 
 
 ### Jekyll Themes
