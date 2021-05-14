@@ -28,6 +28,13 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
+| Format   | Tag example |
+| -------- | ----------- |
+| Headings | =heading1=<br>==heading2==<br>===heading3=== |
+| New paragraph | A blank line starts a new paragraph |
+| Source code block |  // all on one line<br> {{{ if (foo) bar else   baz }}} |
+
+
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/kaushalnavneet/coursera-js/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
